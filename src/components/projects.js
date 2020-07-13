@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Tabs,Tab, Grid, Cell } from 'react-mdl';
+import { Tabs,Tab, Grid, Cell, Card,CardTitle, CardActions,Button,CardMenu,IconButton, CardText } from 'react-mdl';
 
 class Project extends Component {
    constructor(props){
@@ -9,7 +9,53 @@ class Project extends Component {
    toggleCategories(){
     if(this.state.activeTab===0){
       return(
-        <div><h1>This is React</h1></div>
+       <div className="projects-grid">
+         {/*Proyect 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px',
+          background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+          <CardText>
+             Description...
+          </CardText>          
+          <CardActions border>
+            <Button colored>GitHub</Button>
+          </CardActions>
+          <CardMenu style={{color:"#fff"}}>
+             <IconButton name="share"/>
+          </CardMenu>
+        </Card>
+        
+         {/*Proyect 2*/}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px',
+          background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+          <CardText>
+             Description...
+          </CardText>          
+          <CardActions border>
+            <Button colored>GitHub</Button>
+          </CardActions>
+          <CardMenu style={{color:"#fff"}}>
+             <IconButton name="share"/>
+          </CardMenu>
+        </Card>
+          
+           {/*Proyect 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px',
+          background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+          <CardText>
+             Description...
+          </CardText>          
+          <CardActions border>
+            <Button colored>GitHub</Button>
+          </CardActions>
+          <CardMenu style={{color:"#fff"}}>
+             <IconButton name="share"/>
+          </CardMenu>
+        </Card>
+        </div>
+        
       )
    } else if(this.state.activeTab===1){
       return(
@@ -35,15 +81,13 @@ render(){
         <Tab>TypeScript</Tab> 
         <Tab>JavaScript</Tab>
        </Tabs>
-       <section className="projects-grid">
-         <Grid className="projects-grid">
+     
+         <Grid >
            <Cell col={12}>
           <div className="content"> {this.toggleCategories()}</div>
            </Cell>
          </Grid>
-         
-       </section>
-     </div>
+         </div>
     )
   }
 }
