@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import foto from '../images/2.jpg'
+import foto from '../images/3.jpg'
 
 class Landing extends Component {
 render(){
@@ -13,7 +13,7 @@ render(){
            
             <h1>Software Developer</h1>
            
-            <br/>
+            <hr/>
 
             <p>HTML/CSS | Java | C# | JavaScript | TypeScript | React | Angular | Mongo | SpringMVC </p>
             
