@@ -16,7 +16,7 @@ class Project extends Component {
           <CardTitle style={{color: '#fff', height: '176px',
           background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React: Getting Started</CardTitle>
           <CardText>
-           Classes and function components with React Hooks, and creating a kid game with it.
+          In this course I learned how to work with Classes and function components with React Hooks, and creating a kid game with it.
           </CardText>          
           <CardActions border>
           <a href="https://github.com/jmls9627/React-Getting_Started" 
@@ -34,7 +34,7 @@ class Project extends Component {
           <CardTitle style={{color: '#fff', height: '176px',
           background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Fundamentals</CardTitle>
           <CardText>
-          How to confidently build React applications that are simple and easy to maintain.
+          In this course I learned how to build React applications that are simple and easy to maintain.
           </CardText>          
           <CardActions border>
           <a href="https://github.com/jmls9627/React_Fundamentals" 
@@ -76,7 +76,7 @@ class Project extends Component {
         <CardTitle style={{color: 'black', height: '176px',
         background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ35gXFwGogXMSi58fepPWCtENZD9EU-2uAwQ&usqp=CAU) center / cover'}} >Angular: Getting Started</CardTitle>
         <CardText>
-        Creating components and user interfaces, data-binding, retrieving data using HTTP...
+        In this course I learned how to create components and user interfaces, data-binding, retrieving data using HTTP...
         </CardText>          
         <CardActions border>
         <a href="https://github.com/jmls9627/Angular-G.Started" 
@@ -94,7 +94,7 @@ class Project extends Component {
         <CardTitle style={{color: 'black', height: '176px',
         background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ35gXFwGogXMSi58fepPWCtENZD9EU-2uAwQ&usqp=CAU) center / cover'}} >Angular: Fundamentals</CardTitle>
         <CardText>
-         Aplication using: components, services, directives, pipes, routing, HTTP, and even testing.
+        In this course I learned how to create an aplication using: components, services, directives, pipes, routing, HTTP, and even testing.
         </CardText>          
         <CardActions border>
         <a href="https://github.com/jmls9627/Angular-Fundamentals" 
@@ -111,7 +111,7 @@ class Project extends Component {
         <CardTitle style={{color: 'black', height: '176px',
         background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ35gXFwGogXMSi58fepPWCtENZD9EU-2uAwQ&usqp=CAU) center / cover'}} >Angular-SpringBoot</CardTitle>
         <CardText>     
-         Spring Boot + Angular let's see how all the pieces work together creating a complete application.
+        In this course I learned how all the pieces work together creating a complete application in Spring Boot + Angular.  
         </CardText>          
         <CardActions border>
         <a href="https://github.com/jmls9627/Angular-Spring-Boot" 
@@ -128,7 +128,7 @@ class Project extends Component {
         <CardTitle style={{color: 'black', height: '176px',
         background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ35gXFwGogXMSi58fepPWCtENZD9EU-2uAwQ&usqp=CAU) center / cover'}} >Angular Forms</CardTitle>
         <CardText>     
-        How to create forms, style them, and use data binding and validation.
+        In this course I learned how to create forms, style them, and use data binding and validation.
         </CardText>          
         <CardActions border>
         <a href="https://github.com/jmls9627/Angular-Forms-" 
@@ -145,7 +145,7 @@ class Project extends Component {
         <CardTitle style={{color: 'black', height: '176px',
         background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ35gXFwGogXMSi58fepPWCtENZD9EU-2uAwQ&usqp=CAU) center / cover'}} >Angular CLI</CardTitle>
         <CardText>     
-        How to create, generate, lint, debug, test, build, and more using Angular CLI.
+        In this course I learned how to create, generate, lint, debug, test, build, and more using Angular CLI.
         </CardText>          
         <CardActions border>
         <a href="https://github.com/jmls9627/Angular-CLI" 
@@ -167,7 +167,7 @@ class Project extends Component {
        <CardTitle style={{color: 'white', height: '176px',
        background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzbN9w__IcbRWC5OAFJ-w8AducsUBa-Y7C2A&usqp=CAU) center / cover'}} >TypeScript: Getting Started</CardTitle>
        <CardText>     
-       This is about the most important features of TypeScript, and quickly make you productive with the language.
+       In this course I learned the most important features of TypeScript, and quickly make you productive with the language.
        </CardText>          
        <CardActions border>
        <a href="https://github.com/jmls9627/TS_GettingStarted" 
@@ -185,7 +185,7 @@ class Project extends Component {
        <CardTitle style={{color: 'white', height: '176px',
        background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzbN9w__IcbRWC5OAFJ-w8AducsUBa-Y7C2A&usqp=CAU) center / cover'}} >TypeScript In depth </CardTitle>
        <CardText>     
-      In this course I learned all of the major language features in the latest versions of TypeScript.
+       In this course I learned all of the major language features in the latest versions of TypeScript.
        </CardText>          
        <CardActions border>
        <a href="https://github.com/jmls9627/TypeScript-In-depth" 

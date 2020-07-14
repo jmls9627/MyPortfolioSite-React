@@ -15,7 +15,7 @@ render(){
            
             <hr/>
 
-            <p>HTML/CSS | Java | C# | JavaScript | TypeScript | React | Angular | Mongo | SpringMVC </p>
+            <p>HTML/CSS | Java | C# | JavaScript | TypeScript | React | Angular | SpringMVC | PostgreSQL </p>
             
            <div className="social-links">
               {/*LinkedIn*/ }
