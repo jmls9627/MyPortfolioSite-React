@@ -14,19 +14,17 @@ render(){
             <div style={{textAlign: 'center'}}>
               <img
                src={foto}  alt='foto'
-                style={{height: '240px', borderRadius:"100%" }}
+                style={{height: '240px', borderRadius:"100%",marginTop:'50px' }}
                  />
             </div>
 
             <h2 style={{paddingTop: 'em'}}>José Manuel López</h2>
             <h4 style={{color: 'grey'}}>Software Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Avid programmer with the ability to learn new technologies quickly and to work and communicate effectively as an individual and as part of a team.
-               Fast learner and proactive Software Developer who enjoys collaborating with team members and stakeholders. Resourceful professional who has accomplished
-               several projects in a deadline-oriented environment and always look for challenges that allow the growth on a personal and professional level.  </p>
+            <p>Dedicated and focused software developer with more than 2 years of programming experience and excellent time management and organization skills. Detail-oriented programmer who enjoys challenges and teamwork. Seeking to obtain a full-time position where my strong technical and analytical skills will contribute to the benefit of the company and its customers. </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>-------</p>
+            <p>Miami, Florida</p>
             <h5>Phone</h5>
             <p>(786) 486-1273</p>
             <h5>Email</h5>
@@ -38,12 +36,11 @@ render(){
             <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
 
-
             <Education
               startYear={2014}
               endYear={2019}
-              schoolName="Informatics Science University (UCI)"
-              schoolDescription=""
+              schoolName="University of Computer Sciences (UCI)"
+              schoolDescription="Bachelor of Science in Computer Science"
                />
 
                 <hr style={{borderTop: '3px solid #e22947'}} />
@@ -53,8 +50,15 @@ render(){
             <Experience
               startYear={2017}
               endYear={2019}
-              jobName="Software Developer-Intern at CIGED. La Habana. Cuba."
-              jobDescription="The  Computerization of Document Management Center  attached to school 2, develops comprehensive computer systems and services of high quality and competitiveness in computerization or improvement of document management processes."
+              jobName="Software Developer-Intern at CIGED. Havana. Cuba."           
+              jobDescription="
+                Design and implementation of web pages on the Alfresco Shared platform using HTML and Bootstrap as a style.
+                Maintenance and development of website functionalities using JavaScript as a programming language.
+              	I worked on the Migration of the RepXos search and navigation interfaces to the Alfresco Shared platform.
+              	I worked on the migration of the search and navigation components from RepXos to Angular JS.
+              	I worked on developing XML content models for the Alfresco Shared Platform.
+              	Responsible for deployment and maintanance of company's web portal using ALFRESCO content management system.
+              " 
               />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
@@ -68,7 +72,7 @@ render(){
                   />
                   <Skills
                   skill="C#"
-                  progress={70}
+                  progress={65}
                   />
                 <Skills
                   skill="HTML/CSS"
@@ -92,7 +96,7 @@ render(){
                       />
                       <Skills
                       skill="SpringMVC"
-                      progress={60}
+                      progress={50}
                       />
 
 
